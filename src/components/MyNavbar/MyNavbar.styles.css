@@ -14,18 +14,15 @@
 }
 
 .navbar {
-    padding: 12px
+    padding: 12px;
+	width:100%;
 }
-nav.fixed-top{
-		right: 62px;
-	}
+
 @media (min-width: 768px){
 	.navbar-collapse{
 			justify-content:flex-end;
 	}
-	nav.fixed-top{
-		right: 0;
-	}
+	
 }
 
 @keyframes moveDown {
